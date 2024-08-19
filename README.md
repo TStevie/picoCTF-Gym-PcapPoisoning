@@ -13,3 +13,6 @@ From picoCTF - How about some hide and seek heh? Download this file and find the
 6. The fourth frame is what I initially noticed first, the attempted login over FTP from our 172.16.0.2 host. ![image](https://github.com/user-attachments/assets/8589a09e-5bbc-402e-aea9-12750edab2a7)
 7. I then find frame 507, which is color coded from Wireshark's default settings as a "Bad TCP". Upon expanding the SEQ/ACK analysis and then the TCP Analysis Flags, I see this rule was applied because it's a suspected RTO (retransmission) from frame 4.
 8. Within the packet bytes section on frame 507, we can see the flag we're searching for. ![image](https://github.com/user-attachments/assets/38177e13-b2d8-4cfc-bf9b-6ec4b81e4663)
+
+## Quicker Version
+When in Wireshark or Network Miner, throw a "picoCTF" in the string filter and search, voila
