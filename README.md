@@ -15,4 +15,5 @@ From picoCTF - How about some hide and seek heh? Download this file and find the
 8. Within the packet bytes section on frame 507, we can see the flag we're searching for. ![image](https://github.com/user-attachments/assets/38177e13-b2d8-4cfc-bf9b-6ec4b81e4663)
 
 ## Quicker Version
-When in Wireshark or Network Miner, throw a "picoCTF" in the string filter and search, voila
+When in Wireshark or Network Miner, throw a "picoCTF" in the string filter and search, voila ![image](https://github.com/user-attachments/assets/ea7b96dc-fa12-4850-a45b-ab0e99a4402a)
+
